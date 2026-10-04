@@ -1,1 +1,24 @@
-This project builds a polished landing page for a mock education platform using advanced HTML and CSS techniques, with a dark hero banner, instructor highlights, testimonials, tutorials, membership cards, FAQ, and a styled footer. <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80" alt="Learning design preview" />
+# CSS, advanced: SmileSchool
+
+![SmileSchool banner](images/banner.jpg)
+
+This project turns the SmileSchool designer file (Figma) into a styled web page using only HTML and CSS. Starting from the HTML built in the previous `HTML, advanced` project, it adds the styling for each part of the page: the header and banner, the quote, the most popular tutorials list, the free membership block, the F.A.Q. and the footer. The goal is to match the design exactly (colors, widths, heights, fonts, and images) while keeping the CSS simple, with clean and reusable selectors.
+
+## Structure
+
+| Task | Content |
+|------|---------|
+| `task_0` | README and starting `index.html` |
+| `task_1` | `styles.css` created and imported in the `head` of `index.html` |
+| `task_2` | Header and banner |
+| `task_3` | Quotes section |
+| `task_4` | Videos list section |
+| `task_5` | Membership section |
+| `task_6` | F.A.Q. section |
+| `task_7` | Footer |
+
+Each task folder contains the page and its stylesheet as they stand at the end of that task.
+
+## Fonts
+
+Source Sans Pro (loaded from Google Fonts in `index.html`).

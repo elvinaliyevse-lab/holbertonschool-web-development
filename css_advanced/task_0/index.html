@@ -1,241 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SmileSchool</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200;300;400;600;700;900&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <section id="banner-section">
-      <header>
-        <div id="header-div">
-          <a href="#" aria-label="SmileSchool home">
-            <img src="https://cdn-icons-png.flaticon.com/512/684/684908.png" alt="SmileSchool logo" width="167" height="29" />
-          </a>
-          <nav id="header-links" aria-label="Main navigation">
-            <a href="#courses">Courses</a>
-            <a href="#pricing">Pricing</a>
-            <a href="#login">Login</a>
-          </nav>
-        </div>
-      </header>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmileSchool</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <a class="logo" href="#"><img src="images/logo.svg" alt="SmileSchool logo"><span>SmileSchool</span></a>
+    <nav>
+      <a href="#">Courses</a>
+      <a href="#">Pricing</a>
+      <a href="#">Login</a>
+    </nav>
+  </header>
 
-      <img
-        id="banner-bg"
-        src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1440&q=80"
-        alt="Students learning together"
-      />
-      <div id="gradient"></div>
-
+  <main>
+    <section class="banner">
       <h1>Get schooled</h1>
-      <div id="banner-text">
-        <p>Smiles</p>
-        <p>Grin</p>
-        <p>Laugh</p>
-      </div>
-      <button class="register-button" id="banner-button" type="button">REGISTER FOR FREE</button>
+      <ul class="skills">
+        <li>Smiles</li>
+        <li>Grin</li>
+        <li>Laugh</li>
+      </ul>
+      <a class="button" href="#">Register for free</a>
+      <p class="learn"><strong>Learn</strong> from the pros</p>
+      <ul class="teachers">
+        <li>
+          <img src="images/teacher1.jpg" alt="Phillip Massey">
+          <h3>Phillip Massey</h3>
+          <p>« Smile of the year »<br>2018 - 2019</p>
+        </li>
+        <li>
+          <img src="images/teacher2.jpg" alt="Nannie Lawrence">
+          <h3>Nannie Lawrence</h3>
+          <p>Best « little smile »<br>2017</p>
+        </li>
+        <li>
+          <img src="images/teacher3.jpg" alt="Bruce Walters">
+          <h3>Bruce Walters</h3>
+          <p>Best « Friend Smile »<br>live performance 2019</p>
+        </li>
+        <li>
+          <img src="images/teacher4.jpg" alt="Henry Hughes">
+          <h3>Henry Hughes</h3>
+          <p>« 24h smiles » winner<br>2016 - 2019</p>
+        </li>
+      </ul>
     </section>
 
-    <section id="pros-section">
-      <h2>Learn from the pros</h2>
-      <div id="pros-quotes">
-        <article class="pro">
-          <img class="round-image" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&q=80" alt="Phillip Massey" />
-          <h3 id="pro">Phillip Massey</h3>
-          <p class="pro-quote">« Smile of the year »</p>
-        </article>
-        <article class="pro">
-          <img class="round-image" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=300&q=80" alt="Nannie Lawrence" />
-          <h3 id="pro">Nannie Lawrence</h3>
-          <p class="pro-quote">« Best little smile »</p>
-        </article>
-        <article class="pro">
-          <img class="round-image" src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=300&q=80" alt="Bruce Walters" />
-          <h3 id="pro">Bruce Walters</h3>
-          <p class="pro-quote">« The smile of a champion »</p>
-        </article>
-      </div>
+    <section class="quote">
+      <img src="images/quote.jpg" alt="Person Name">
+      <blockquote>
+        <p>« Those tutorials are concise and go straight to the point. I can't think of a better place to learn smiling. And it's so fun! »</p>
+        <p class="author">Person Name</p>
+        <p class="job">weather presenter</p>
+      </blockquote>
     </section>
 
-    <section id="quotes-section">
-      <div id="quote-div">
-        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80" alt="Student testimonial" />
-        <div id="quote-block">
-          <blockquote>
-            « Those tutorials are concise, clear, and super practical. I learned a ton in just a few sessions and now I feel confident building beautiful pages. »
-          </blockquote>
-          <p id="quote-auth">Anne Richards</p>
-          <p id="auth-profession">Student</p>
-        </div>
-      </div>
+    <section class="videos">
+      <h2>Most <strong>popular</strong> tutorials</h2>
+      <ul>
+        <li>
+          <div class="thumb"><img src="images/video1.jpg" alt="Diagonal Smile"></div>
+          <h3>Diagonal Smile</h3>
+          <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+          <div class="author"><img src="images/teacher1.jpg" alt=""><span>Phillip Massey</span></div>
+          <div class="meta"><span class="stars stars-4"></span><span>8 min</span></div>
+        </li>
+        <li>
+          <div class="thumb"><img src="images/video2.jpg" alt="Sad Smile"></div>
+          <h3>Sad Smile</h3>
+          <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+          <div class="author"><img src="images/teacher1.jpg" alt=""><span>Phillip Massey</span></div>
+          <div class="meta"><span class="stars stars-4"></span><span>8 min</span></div>
+        </li>
+        <li>
+          <div class="thumb"><img src="images/video3.jpg" alt="Natural Smile"></div>
+          <h3>Natural Smile</h3>
+          <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+          <div class="author"><img src="images/teacher1.jpg" alt=""><span>Phillip Massey</span></div>
+          <div class="meta"><span class="stars stars-4"></span><span>8 min</span></div>
+        </li>
+        <li>
+          <div class="thumb"><img src="images/video4.jpg" alt="Happy Smile"></div>
+          <h3>Happy Smile</h3>
+          <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+          <div class="author"><img src="images/teacher1.jpg" alt=""><span>Phillip Massey</span></div>
+          <div class="meta"><span class="stars stars-4"></span><span>8 min</span></div>
+        </li>
+      </ul>
     </section>
 
-    <section id="videos-section">
-      <h1>Most popular tutorials</h1>
-      <div id="videos-container">
-        <article class="video-container">
-          <div class="video">
-            <img class="video-img" src="https://images.unsplash.com/photo-1516321165247-4aa89a48be28?auto=format&fit=crop&w=500&q=80" alt="Video thumbnail" />
-            <img class="play-button" src="https://cdn-icons-png.flaticon.com/512/1946/1946488.png" alt="Play" width="64" height="64" />
-          </div>
-          <h2>Diagonal Smile</h2>
-          <p class="video-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <div class="author-container">
-            <img class="author-img" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=100&q=80" alt="Video author" />
-            <p class="video-author-name">Phillip Massey</p>
-          </div>
-          <div class="video-rating">
-            <div class="stars-ratings" aria-label="five star rating">
-              <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" width="15" height="15" />
-              <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" width="15" height="15" />
-              <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" width="15" height="15" />
-              <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" width="15" height="15" />
-              <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" width="15" height="15" />
-            </div>
-            <p>8 min</p>
-          </div>
-        </article>
-
-        <article class="video-container">
-          <div class="video">
-            <img class="video-img" src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=500&q=80" alt="Video thumbnail" />
-            <img class="play-button" src="https://cdn-icons-png.flaticon.com/512/1946/1946488.png" alt="Play" width="64" height="64" />
-          </div>
-          <h2>Happy smile</h2>
-          <p class="video-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <div class="author-container">
-            <img class="author-img" src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=100&q=80" alt="Video author" />
-            <p class="video-author-name">Nannie Lawrence</p>
-          </div>
-          <div class="video-rating">
-            <div class="stars-ratings" aria-label="five star rating">
-              <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" width="15" height="15" />
-              <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" width="15" height="15" />
-              <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" width="15" height="15" />
-              <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" width="15" height="15" />
-              <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" width="15" height="15" />
-            </div>
-            <p>8 min</p>
-          </div>
-        </article>
-
-        <article class="video-container">
-          <div class="video">
-            <img class="video-img" src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=500&q=80" alt="Video thumbnail" />
-            <img class="play-button" src="https://cdn-icons-png.flaticon.com/512/1946/1946488.png" alt="Play" width="64" height="64" />
-          </div>
-          <h2>Serious smile</h2>
-          <p class="video-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <div class="author-container">
-            <img class="author-img" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=100&q=80" alt="Video author" />
-            <p class="video-author-name">Bruce Walters</p>
-          </div>
-          <div class="video-rating">
-            <div class="stars-ratings" aria-label="five star rating">
-              <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" width="15" height="15" />
-              <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" width="15" height="15" />
-              <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" width="15" height="15" />
-              <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" width="15" height="15" />
-              <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" width="15" height="15" />
-            </div>
-            <p>8 min</p>
-          </div>
-        </article>
-
-        <article class="video-container">
-          <div class="video">
-            <img class="video-img" src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=500&q=80" alt="Video thumbnail" />
-            <img class="play-button" src="https://cdn-icons-png.flaticon.com/512/1946/1946488.png" alt="Play" width="64" height="64" />
-          </div>
-          <h2>Natural smile</h2>
-          <p class="video-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <div class="author-container">
-            <img class="author-img" src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=100&q=80" alt="Video author" />
-            <p class="video-author-name">Anne Richards</p>
-          </div>
-          <div class="video-rating">
-            <div class="stars-ratings" aria-label="five star rating">
-              <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" width="15" height="15" />
-              <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" width="15" height="15" />
-              <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" width="15" height="15" />
-              <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" width="15" height="15" />
-              <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Star" width="15" height="15" />
-            </div>
-            <p>8 min</p>
-          </div>
-        </article>
-      </div>
+    <section class="membership">
+      <h2><strong>Free</strong> membership</h2>
+      <ul>
+        <li><img src="images/smile.svg" alt=""><h3>Lorem ipsum</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></li>
+        <li><img src="images/smile.svg" alt=""><h3>Lorem ipsum</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></li>
+        <li><img src="images/smile.svg" alt=""><h3>Lorem ipsum</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></li>
+        <li><img src="images/smile.svg" alt=""><h3>Lorem ipsum</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></li>
+      </ul>
+      <a class="button" href="#">Register for free</a>
     </section>
 
-    <section id="membership-section">
-      <h1>Free membership</h1>
-      <div id="membership-list">
-        <article class="membership">
-          <img src="https://cdn-icons-png.flaticon.com/512/271/271154.png" alt="Smiles icon" width="35" height="35" />
-          <h2 class="membership-name">Lorem ipsum</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </article>
-        <article class="membership">
-          <img src="https://cdn-icons-png.flaticon.com/512/2228/2228574.png" alt="Laugh icon" width="35" height="35" />
-          <h2 class="membership-name">Lorem ipsum</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </article>
-        <article class="membership">
-          <img src="https://cdn-icons-png.flaticon.com/512/1015/1015606.png" alt="Smile icon" width="35" height="35" />
-          <h2 class="membership-name">Lorem ipsum</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </article>
-        <article class="membership">
-          <img src="https://cdn-icons-png.flaticon.com/512/443/443140.png" alt="Magic icon" width="35" height="35" />
-          <h2 class="membership-name">Lorem ipsum</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </article>
-      </div>
-      <button class="register-button" id="membership-button" type="button">REGISTER FOR FREE</button>
+    <section class="faq">
+      <h2>F.A.Q.</h2>
+      <ul>
+        <li><h3>How does this work?</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></li>
+        <li><h3>How does this work?</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></li>
+        <li><h3>How does this work?</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></li>
+        <li><h3>How does this work?</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></li>
+      </ul>
     </section>
+  </main>
 
-    <section id="FAQ-section">
-      <h2 id="FAQ-title">F.A.Q.</h2>
-      <div id="FAQ-content">
-        <div class="FAQ-row-block">
-          <article class="FAQ-item-block">
-            <h3 class="FAQ-question">How does this work?</h3>
-            <p class="FAQ-answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </article>
-          <article class="FAQ-item-block">
-            <h3 class="FAQ-question">Do I have to pay?</h3>
-            <p class="FAQ-answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </article>
-        </div>
-        <div class="FAQ-row-block">
-          <article class="FAQ-item-block">
-            <h3 class="FAQ-question">How do I know the quality?</h3>
-            <p class="FAQ-answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </article>
-          <article class="FAQ-item-block">
-            <h3 class="FAQ-question">Is it a lifetime access?</h3>
-            <p class="FAQ-answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <footer>
-      <div id="footer-row-block">
-        <a href="#" aria-label="SmileSchool home">
-          <img src="https://cdn-icons-png.flaticon.com/512/684/684908.png" alt="SmileSchool logo" width="167" height="29" />
-        </a>
-        <div id="footer-sites" aria-label="Social links">
-          <a href="#" aria-label="Facebook"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384015.png" alt="Facebook" width="20" height="20" /></a>
-          <a href="#" aria-label="Twitter"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384012.png" alt="Twitter" width="20" height="20" /></a>
-          <a href="#" aria-label="Instagram"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384015.png" alt="Instagram" width="20" height="20" /></a>
-        </div>
-      </div>
-      <p id="footer-copyright">© 2025 SmileSchool. All rights reserved.</p>
-    </footer>
-  </body>
+  <footer>
+    <a class="logo" href="#"><img src="images/logo.svg" alt="SmileSchool logo"><span>SmileSchool</span></a>
+    <ul class="social">
+      <li><a href="#"><img src="images/facebook.svg" alt="Facebook"></a></li>
+      <li><a href="#"><img src="images/twitter.svg" alt="Twitter"></a></li>
+      <li><a href="#"><img src="images/instagram.svg" alt="Instagram"></a></li>
+    </ul>
+    <p>SmileSchool 2020</p>
+  </footer>
+</body>
 </html>
